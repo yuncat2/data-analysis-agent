@@ -1,0 +1,17 @@
+{
+  "run": "20261104-194825",
+  "eval_version": "v2",
+  "tasks_sha": "43e0e2cb",
+  "git_commit": "8ea55eb",
+  "task_count_total": 16,
+  "total": 16,
+  "passed": 16,
+  "pass_rate": 1.0,
+  "mean_steps": 3.75,
+  "mean_tokens": 7180,
+  "mean_seconds": 10.72,
+  "cache_hit_tokens": 83968,
+  "cache_miss_tokens": 17216,
+  "cache_hit_rate": 0.8299,
+  "failed_ids": []
+}

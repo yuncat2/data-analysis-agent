@@ -1,0 +1,18 @@
+{
+  "kind": "wb",
+  "id": "si_pov_gini",
+  "name": "Gini index",
+  "zh": "基尼系数",
+  "topic": "收入分配",
+  "url": "https://api.worldbank.org/v2/country/all/indicator/SI.POV.GINI?format=json&per_page=20000&date=2000:2023",
+  "license": "CC BY 4.0",
+  "source": "World Bank WDI",
+  "code": "SI.POV.GINI",
+  "rows": 6384,
+  "cols": 4,
+  "missing_pct": 17.81,
+  "bytes": 165604,
+  "sha256": "85743793247c0086",
+  "path": "si_pov_gini\\data.csv",
+  "fetched": "2026-10-22"
+}

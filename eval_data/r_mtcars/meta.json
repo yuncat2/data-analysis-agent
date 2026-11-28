@@ -1,0 +1,17 @@
+{
+  "kind": "csvurl",
+  "id": "r_mtcars",
+  "name": "Motor Trend car road tests",
+  "zh": "汽车性能数据",
+  "topic": "回归/教学",
+  "url": "https://vincentarelbundock.github.io/Rdatasets/csv/datasets/mtcars.csv",
+  "license": "GPL-2（R datasets）",
+  "source": "R 内置数据集（Rdatasets 镜像）",
+  "rows": 32,
+  "cols": 12,
+  "missing_pct": 0.0,
+  "bytes": 1791,
+  "sha256": "6f86307ec92a7615",
+  "path": "r_mtcars\\data.csv",
+  "fetched": "2026-10-22"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "csvurl",
+  "id": "ecb_hicp",
+  "name": "HICP overall index (EA)",
+  "zh": "欧元区调和CPI",
+  "topic": "价格",
+  "url": "https://data-api.ecb.europa.eu/service/data/ICP/M.U2.N.000000.4.ANR?format=csvdata&lastNObservations=240",
+  "license": "ECB/Eurostat 公开数据",
+  "source": "ECB / Eurostat",
+  "insecure": true,
+  "timeout": 60,
+  "rows": 240,
+  "cols": 3,
+  "missing_pct": 0.0,
+  "bytes": 8920,
+  "sha256": "3cd93550769ea410",
+  "path": "ecb_hicp\\data.csv",
+  "fetched": "2026-10-22"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "csvurl",
+  "id": "ecb_policy_rate",
+  "name": "ECB main refinancing rate",
+  "zh": "欧央行主要再融资利率",
+  "topic": "金融",
+  "url": "https://data-api.ecb.europa.eu/service/data/FM/B.U2.EUR.4F.KR.MRR_FR.LEV?format=csvdata&lastNObservations=240",
+  "license": "ECB/Eurostat 公开数据",
+  "source": "ECB / Eurostat",
+  "insecure": true,
+  "timeout": 60,
+  "rows": 48,
+  "cols": 3,
+  "missing_pct": 0.0,
+  "bytes": 2203,
+  "sha256": "f9759c6055b29e76",
+  "path": "ecb_policy_rate\\data.csv",
+  "fetched": "2026-10-22"
+}

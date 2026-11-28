@@ -1,0 +1,17 @@
+{
+  "kind": "csvurl",
+  "id": "uci_airquality",
+  "name": "Beijing PM2.5",
+  "zh": "北京PM2.5数据",
+  "topic": "时间序列/环境",
+  "url": "https://archive.ics.uci.edu/ml/machine-learning-databases/00381/PRSA_data_2010.1.1-2014.12.31.csv",
+  "license": "CC BY 4.0",
+  "source": "UCI Machine Learning Repository",
+  "rows": 43824,
+  "cols": 13,
+  "missing_pct": 0.36,
+  "bytes": 2265449,
+  "sha256": "1d335dcdb6a8b020",
+  "path": "uci_airquality\\data.csv",
+  "fetched": "2026-10-22"
+}

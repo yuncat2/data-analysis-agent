@@ -1,0 +1,23 @@
+{
+  "question": "按 species 分组，petal_length 的均值排名",
+  "group_col": "species",
+  "answer_col": "petal_length",
+  "n_rows_clean": 150,
+  "group_means": {
+    "Iris-setosa": 1.464,
+    "Iris-versicolor": 4.26,
+    "Iris-virginica": 5.552
+  },
+  "group_counts": {
+    "Iris-setosa": 50,
+    "Iris-versicolor": 50,
+    "Iris-virginica": 50
+  },
+  "expected_ranking": [
+    "Iris-virginica",
+    "Iris-versicolor",
+    "Iris-setosa"
+  ],
+  "tolerance": 1e-06,
+  "note": "只污染格式、不污染数值，因此四个脏文件的正确答案都与此完全相同（heavy 会多出一个『合计』组，必须被丢弃，不计入排名）"
+}

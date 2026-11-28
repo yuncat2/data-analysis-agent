@@ -1,0 +1,17 @@
+{
+  "kind": "csvurl",
+  "id": "uci_iris",
+  "name": "Iris",
+  "zh": "鸢尾花数据集",
+  "topic": "分类/教学",
+  "url": "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data",
+  "license": "CC BY 4.0",
+  "source": "UCI Machine Learning Repository",
+  "rows": 150,
+  "cols": 5,
+  "missing_pct": 0.0,
+  "bytes": 4762,
+  "sha256": "ea59c999d4168a32",
+  "path": "uci_iris\\data.csv",
+  "fetched": "2026-10-22"
+}

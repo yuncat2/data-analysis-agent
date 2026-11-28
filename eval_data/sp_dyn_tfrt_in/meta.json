@@ -1,0 +1,17 @@
+{
+  "kind": "wb",
+  "id": "sp_dyn_tfrt_in",
+  "name": "Fertility rate, total",
+  "zh": "总和生育率",
+  "topic": "人口健康",
+  "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.TFRT.IN?format=json&per_page=20000&date=2000:2023",
+  "license": "CC BY 4.0",
+  "source": "World Bank WDI",
+  "rows": 6384,
+  "cols": 4,
+  "missing_pct": 0.09,
+  "bytes": 200830,
+  "sha256": "7bd41f91458f62d9",
+  "path": "sp_dyn_tfrt_in\\data.csv",
+  "fetched": "2026-10-22"
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "wb",
+  "id": "en_ghg_co2_pc_ce_ar5",
+  "name": "CO2 emissions per capita",
+  "zh": "人均二氧化碳排放",
+  "topic": "环境",
+  "url": "https://api.worldbank.org/v2/country/all/indicator/EN.GHG.CO2.PC.CE.AR5?format=json&per_page=20000&date=2000:2023",
+  "license": "CC BY 4.0",
+  "source": "World Bank WDI",
+  "code": "EN.GHG.CO2.PC.CE.AR5",
+  "rows": 6384,
+  "cols": 4,
+  "missing_pct": 1.41,
+  "bytes": 255831,
+  "sha256": "80cb94c2fd9078d0",
+  "path": "en_ghg_co2_pc_ce_ar5\\data.csv",
+  "fetched": "2026-10-22"
+}

@@ -1,0 +1,12 @@
+# 运行时产物
+_work/
+runs/
+__pycache__/
+*.pyc
+
+# 密钥，绝对不能进 git
+.env
+
+# 模型生成的数据/图，不需要版本管理
+*.pkl
+_out.txt

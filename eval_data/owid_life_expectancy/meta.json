@@ -1,0 +1,17 @@
+{
+  "kind": "owid",
+  "id": "owid_life_expectancy",
+  "name": "Life expectancy (OWID)",
+  "zh": "预期寿命（OWID）",
+  "topic": "人口健康",
+  "url": "https://ourworldindata.org/grapher/life-expectancy.csv",
+  "license": "CC BY 4.0",
+  "source": "Our World in Data",
+  "rows": 21565,
+  "cols": 4,
+  "missing_pct": 1.56,
+  "bytes": 627096,
+  "sha256": "669202d72aff96a2",
+  "path": "owid_life_expectancy\\data.csv",
+  "fetched": "2026-10-22"
+}

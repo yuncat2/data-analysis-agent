@@ -1,0 +1,17 @@
+{
+  "kind": "owid",
+  "id": "owid_co2_emissions_per_capita",
+  "name": "CO2 emissions per capita (OWID)",
+  "zh": "人均碳排放（OWID）",
+  "topic": "环境",
+  "url": "https://ourworldindata.org/grapher/co2-emissions-per-capita.csv",
+  "license": "CC BY 4.0",
+  "source": "Our World in Data",
+  "rows": 26509,
+  "cols": 4,
+  "missing_pct": 1.08,
+  "bytes": 828814,
+  "sha256": "1e48a238fe6227d2",
+  "path": "owid_co2_emissions_per_capita\\data.csv",
+  "fetched": "2026-10-22"
+}

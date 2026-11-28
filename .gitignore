@@ -1,0 +1,33 @@
+# ===== 密钥：永不入库 =====
+.env
+.env.local
+*.key
+
+# ===== 运行产物 =====
+_work/
+runs/
+*.pkl
+
+# 评测结果：每次调试都会新增，可随时清空；只有 baseline.json 和 notes.md 要保留
+eval_task/*/runs/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
+
+# ===== 个人规划/求职笔记：不公开 =====
+docs/
+
+# ===== 旧版 git 历史备份（确认新仓库可用后可删）=====
+.git-backup-*/

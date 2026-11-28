@@ -1,0 +1,18 @@
+{
+  "kind": "wb",
+  "id": "ny_gdp_pcap_cd",
+  "name": "GDP per capita (current US$)",
+  "zh": "人均GDP（现价美元）",
+  "topic": "宏观经济",
+  "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.CD?format=json&per_page=20000&date=2000:2023",
+  "license": "CC BY 4.0",
+  "source": "World Bank WDI",
+  "code": "NY.GDP.PCAP.CD",
+  "rows": 6384,
+  "cols": 4,
+  "missing_pct": 0.74,
+  "bytes": 256578,
+  "sha256": "452ed446f5ccceb2",
+  "path": "ny_gdp_pcap_cd\\data.csv",
+  "fetched": "2026-10-22"
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "csvurl",
+  "id": "r_toothgrowth",
+  "name": "Tooth growth",
+  "zh": "牙齿生长数据",
+  "topic": "方差分析/教学",
+  "url": "https://vincentarelbundock.github.io/Rdatasets/csv/datasets/ToothGrowth.csv",
+  "license": "GPL-2（R datasets）",
+  "source": "R 内置数据集（Rdatasets 镜像）",
+  "rows": 60,
+  "cols": 4,
+  "missing_pct": 0.0,
+  "bytes": 968,
+  "sha256": "e83564eef9c5e4fb",
+  "path": "r_toothgrowth\\data.csv",
+  "fetched": "2026-10-22"
+}

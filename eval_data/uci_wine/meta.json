@@ -1,0 +1,17 @@
+{
+  "kind": "csvurl",
+  "id": "uci_wine",
+  "name": "Wine",
+  "zh": "葡萄酒数据集",
+  "topic": "分类",
+  "url": "https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data",
+  "license": "CC BY 4.0",
+  "source": "UCI Machine Learning Repository",
+  "rows": 178,
+  "cols": 14,
+  "missing_pct": 0.0,
+  "bytes": 11586,
+  "sha256": "3be67eaf6f15227a",
+  "path": "uci_wine\\data.csv",
+  "fetched": "2026-10-22"
+}

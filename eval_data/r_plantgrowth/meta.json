@@ -1,0 +1,17 @@
+{
+  "kind": "csvurl",
+  "id": "r_plantgrowth",
+  "name": "Plant growth",
+  "zh": "植物生长数据",
+  "topic": "方差分析/教学",
+  "url": "https://vincentarelbundock.github.io/Rdatasets/csv/datasets/PlantGrowth.csv",
+  "license": "GPL-2（R datasets）",
+  "source": "R 内置数据集（Rdatasets 镜像）",
+  "rows": 30,
+  "cols": 3,
+  "missing_pct": 0.0,
+  "bytes": 434,
+  "sha256": "319ee56fa90b44bf",
+  "path": "r_plantgrowth\\data.csv",
+  "fetched": "2026-10-22"
+}

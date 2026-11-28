@@ -1,0 +1,21 @@
+{
+  "run": "20261104-225410",
+  "eval_version": "v4",
+  "tasks_sha": "5856619b",
+  "git_commit": "b6e0f62",
+  "task_count_total": 33,
+  "total": 33,
+  "passed": 30,
+  "pass_rate": 0.9091,
+  "mean_steps": 4.15,
+  "mean_tokens": 9914,
+  "mean_seconds": 10.06,
+  "cache_hit_tokens": 247936,
+  "cache_miss_tokens": 44543,
+  "cache_hit_rate": 0.8477,
+  "failed_ids": [
+    "two_datasets_rank",
+    "le_rank_implicit",
+    "gdp_rank_implicit"
+  ]
+}

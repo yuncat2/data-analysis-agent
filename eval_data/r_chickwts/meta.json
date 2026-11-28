@@ -1,0 +1,17 @@
+{
+  "kind": "csvurl",
+  "id": "r_chickwts",
+  "name": "Chicken weights",
+  "zh": "雏鸡体重数据",
+  "topic": "方差分析/教学",
+  "url": "https://vincentarelbundock.github.io/Rdatasets/csv/datasets/chickwts.csv",
+  "license": "GPL-2（R datasets）",
+  "source": "R 内置数据集（Rdatasets 镜像）",
+  "rows": 71,
+  "cols": 3,
+  "missing_pct": 0.0,
+  "bytes": 1195,
+  "sha256": "742fa5191912960e",
+  "path": "r_chickwts\\data.csv",
+  "fetched": "2026-10-22"
+}

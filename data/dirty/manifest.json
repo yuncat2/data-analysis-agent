@@ -1,0 +1,241 @@
+{
+  "source": "鸢尾花.csv",
+  "seed": 42,
+  "files": [
+    {
+      "name": "light",
+      "corruptions": [
+        "petal_length 列 20 行加上 ' cm' 单位后缀"
+      ],
+      "expected_failure_if_unfixed": "petal_length 被读成 object，groupby 求均值时报错或得到字符串拼接结果",
+      "rows_touched": {
+        "petal_length": [
+          28,
+          6,
+          70,
+          62,
+          57,
+          35,
+          26,
+          139,
+          22,
+          108,
+          8,
+          7,
+          23,
+          55,
+          59,
+          129,
+          143,
+          50,
+          107,
+          56
+        ]
+      }
+    },
+    {
+      "name": "medium",
+      "corruptions": [
+        "petal_length 列 20 行加上 ' cm' 单位后缀",
+        "sepal_length 列 15 行改用小数逗号（如 '5,1'）",
+        "sepal_width 列 10 行改为 '缺失'（真缺失，故意选了不进 na_values 的写法）"
+      ],
+      "expected_failure_if_unfixed": "petal_length 被读成 object，groupby 求均值时报错或得到字符串拼接结果；sepal_length 读成 str；'缺失' 不会被识别为缺失，缺失统计和 nunique 全部失真",
+      "rows_touched": {
+        "petal_length": [
+          28,
+          6,
+          70,
+          62,
+          57,
+          35,
+          26,
+          139,
+          22,
+          108,
+          8,
+          7,
+          23,
+          55,
+          59,
+          129,
+          143,
+          50,
+          107,
+          56
+        ],
+        "sepal_length": [
+          114,
+          71,
+          1,
+          40,
+          108,
+          87,
+          39,
+          55,
+          86,
+          26,
+          23,
+          97,
+          24,
+          91,
+          88
+        ],
+        "sepal_width_na": [
+          67,
+          11,
+          117,
+          137,
+          31,
+          96,
+          20,
+          141,
+          75,
+          92
+        ]
+      }
+    },
+    {
+      "name": "heavy",
+      "corruptions": [
+        "petal_length 列 20 行加上 ' cm' 单位后缀",
+        "sepal_length 列 15 行改用小数逗号（如 '5,1'）",
+        "sepal_width 列 10 行改为 '缺失'（真缺失，故意选了不进 na_values 的写法）",
+        "末尾追加 1 行『合计』（species='合计'，数值列为求和）",
+        "所有数值列列名加了尾随空格（如 'sepal_length '）",
+        "10 行存在单元格前后空格"
+      ],
+      "expected_failure_if_unfixed": "petal_length 被读成 object，groupby 求均值时报错或得到字符串拼接结果；sepal_length 读成 str；'缺失' 不会被识别为缺失，缺失统计和 nunique 全部失真；若不丢合计行，排名里会多出一个数值巨大的『合计』组；列名带空格会导致 KeyError",
+      "rows_touched": {
+        "petal_length": [
+          28,
+          6,
+          70,
+          62,
+          57,
+          35,
+          26,
+          139,
+          22,
+          108,
+          8,
+          7,
+          23,
+          55,
+          59,
+          129,
+          143,
+          50,
+          107,
+          56
+        ],
+        "sepal_length": [
+          114,
+          71,
+          1,
+          40,
+          108,
+          87,
+          39,
+          55,
+          86,
+          26,
+          23,
+          97,
+          24,
+          91,
+          88
+        ],
+        "sepal_width_na": [
+          67,
+          11,
+          117,
+          137,
+          31,
+          96,
+          20,
+          141,
+          75,
+          92
+        ],
+        "whitespace": [
+          147,
+          49,
+          17,
+          58,
+          74,
+          59,
+          25,
+          97,
+          71,
+          116
+        ]
+      }
+    },
+    {
+      "name": "gbk",
+      "corruptions": [
+        "petal_length 列 20 行加上 ' cm' 单位后缀",
+        "sepal_length 列 15 行改用小数逗号（如 '5,1'）",
+        "sepal_width 列 10 行改为 '缺失'（真缺失，故意选了不进 na_values 的写法）",
+        "末尾追加 1 行『合计』（同时保证文件含非 ASCII 字节）",
+        "整个文件用 GBK 编码保存"
+      ],
+      "expected_failure_if_unfixed": "utf-8 解码失败 → 若 tabular.py 的 GBK 回退失效，load_data 直接报错",
+      "rows_touched": {
+        "petal_length": [
+          28,
+          6,
+          70,
+          62,
+          57,
+          35,
+          26,
+          139,
+          22,
+          108,
+          8,
+          7,
+          23,
+          55,
+          59,
+          129,
+          143,
+          50,
+          107,
+          56
+        ],
+        "sepal_length": [
+          114,
+          71,
+          1,
+          40,
+          108,
+          87,
+          39,
+          55,
+          86,
+          26,
+          23,
+          97,
+          24,
+          91,
+          88
+        ],
+        "sepal_width_na": [
+          67,
+          11,
+          117,
+          137,
+          31,
+          96,
+          20,
+          141,
+          75,
+          92
+        ]
+      }
+    }
+  ],
+  "answer_column_note": "petal_length 只做格式污染，所以四个文件的标准答案与干净数据一致"
+}

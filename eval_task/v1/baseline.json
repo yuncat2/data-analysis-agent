@@ -1,0 +1,14 @@
+{
+  "run": "20261104-193723",
+  "eval_version": "v1",
+  "tasks_sha": "0d22dab9",
+  "git_commit": "6423bf5",
+  "task_count_total": 10,
+  "total": 10,
+  "passed": 10,
+  "pass_rate": 1.0,
+  "mean_steps": 4.1,
+  "mean_tokens": 8432,
+  "mean_seconds": 12.19,
+  "failed_ids": []
+}

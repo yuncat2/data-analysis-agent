@@ -1,0 +1,17 @@
+{
+  "kind": "owid",
+  "id": "owid_population",
+  "name": "Population (OWID)",
+  "zh": "人口（OWID）",
+  "topic": "人口健康",
+  "url": "https://ourworldindata.org/grapher/population.csv",
+  "license": "CC BY 4.0",
+  "source": "Our World in Data",
+  "rows": 58824,
+  "cols": 4,
+  "missing_pct": 0.08,
+  "bytes": 1653011,
+  "sha256": "cc6df11a1c8b9e96",
+  "path": "owid_population\\data.csv",
+  "fetched": "2026-10-22"
+}

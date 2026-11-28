@@ -1,0 +1,17 @@
+{
+  "kind": "owid",
+  "id": "owid_gdp_per_capita_maddison",
+  "name": "GDP per capita (Maddison)",
+  "zh": "人均GDP（Maddison）",
+  "topic": "宏观经济",
+  "url": "https://ourworldindata.org/grapher/gdp-per-capita-maddison.csv",
+  "license": "CC BY 4.0",
+  "source": "Our World in Data",
+  "rows": 21586,
+  "cols": 5,
+  "missing_pct": 20.16,
+  "bytes": 614105,
+  "sha256": "a31fac58fcf49ee7",
+  "path": "owid_gdp_per_capita_maddison\\data.csv",
+  "fetched": "2026-10-22"
+}
